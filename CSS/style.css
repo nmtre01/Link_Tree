@@ -1,9 +1,9 @@
 
 @-webkit-keyframes blackWhite {  
-  0% { background-color: white; }
-  50% { background-color: white; }
-  51% { background-color: black; }
-  100% { background-color: black; }
+  0% { opacity : 0.0; }
+  50% { opacity: 0.5: }
+  51% { opacity: 0.51; }
+  100% { opacity: 1.0; }
 }
 
 body {
@@ -12,7 +12,6 @@ body {
     background-image: url("https://www.freepik.com/free-photos-vectors/star-background");
     height: 100px;
     width: 100px;
-    background-color: black;
     -webkit-animation-name: blackWhite;  
     -webkit-animation-iteration-count: infinite;  
     -webkit-animation-duration: 2s;
@@ -38,13 +37,11 @@ body {
     border-radius: 50%;
 }
 
+
+
 .profile-name {
     text-align: center;
-    -webkit-animation-name: blackWhite;  
-    -webkit-animation-iteration-count: infinite;  
-    -webkit-animation-duration: 2s;
-    -webkit-animation-timing-function: ease-in-out;
-
+    text-color: white;
     padding: 30px;
     font-size: 40px;
 
