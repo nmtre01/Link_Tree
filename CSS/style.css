@@ -1,6 +1,21 @@
-body {
-    background: linear-gradient(#00008b, #add8e6, #00008b);
 
+@keyframes profile_text_color {
+    0% {color: white; }
+    10% {color: #ececec; }
+    20% {color: #c9c9c9; }
+    30% {color: #aaaaaa; }
+    40% {color: #8b8b8b; }
+    50% {color: #797979; }
+    60% {color: #5a5a5a; }
+    70% {color: #494949; }
+    80% {color: rgb(51, 51, 51); }
+    90% {color: #222222; }
+    100% {color: black; }
+}
+
+body {
+    background-image: url("../Files/stars.jpg");
+    background-size: 100px 100px;
     color: black;
     font-family: "Open Sans", sans-serif;
 
@@ -14,16 +29,22 @@ body {
     margin-right: auto;
 
     margin-top: 10%;
-    height: auto;
+    height: 100px;
     max-width: 100px;
+
+    padding: 20px;
 
     border-radius: 50%;
 }
+
 
 .profile-name {
     text-align: center;
 
     padding: 30px;
+    color: white;
+    animation: profile_text_color 1s infinite alternate;
+
     font-size: 40px;
 
 }
