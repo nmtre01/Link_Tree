@@ -9,12 +9,14 @@
 body {
     /*background: linear-gradient(#00008b, #add8e6, #00008b);*/
     /*color: black;*/
-    background-image: url("https://stock.adobe.com/images/space-background-with-stars-space-stars-background-space-texture-with-many-stars-for-different-projects/179077796");
+    background-image: url("https://www.freepik.com/free-photos-vectors/star-background");
     height: 100px;
+    width: 100px;
     background-color: black;
     -webkit-animation-name: blackWhite;  
     -webkit-animation-iteration-count: infinite;  
     -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: ease-in-out;
     
     font-family: "Open Sans", sans-serif;
 
