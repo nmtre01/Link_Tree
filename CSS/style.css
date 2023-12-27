@@ -40,6 +40,10 @@ body {
 
 .profile-name {
     text-align: center;
+    -webkit-animation-name: blackWhite;  
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: ease-in-out;
 
     padding: 30px;
     font-size: 40px;
